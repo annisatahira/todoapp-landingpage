@@ -18,7 +18,7 @@ module.exports = {
             ],
         },
         {
-            test: /\.(png|svg|jpg|jpeg|gif)$/,
+            test: /\.(png|svg|jpg|jpeg|gif|otf)$/,
             use: [
                 'file-loader',
             ],
@@ -30,14 +30,14 @@ module.exports = {
       filename: path.resolve(__dirname, 'dist/index.html'),
       template: path.resolve(__dirname, 'src/index.html'),
   }),
-//   new CopyWebpackPlugin({
-//     patterns: [
-//         {
-//             from: path.resolve(__dirname, 'src/images'),
-//             to: path.resolve(__dirname, 'dist/images'),
-//         },
-//       ],
-//   }),
+  new CopyWebpackPlugin({
+    patterns: [
+        {
+            from: path.resolve(__dirname, 'src/images'),
+            to: path.resolve(__dirname, 'dist/images'),
+        },
+      ],
+  }),
   new CleanWebpackPlugin()
   ]
 }

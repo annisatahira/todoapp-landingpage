@@ -1,20 +1,35 @@
+@font-face {
+  font-family: Inter-UI-Bold;
+  src: url("../fonts/Inter-UI-Bold.otf");
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
   position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #FFF;
+  background-color: #fb7dc4;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav {
+  margin-top: 40px;
   position: relative;
   top: 0;
   height: 100%;
-}
-
-.nav-mobile__list {
-  display: none;
 }
 
 .nav__list {
@@ -26,9 +41,11 @@
 }
 
 .nav__item a {
-  color: #000;
-  font-size: 12px;
+  color: #FFF;
+  font-size: 10px;
+  font-family: Inter-UI-Bold, 'Times New Roman', Times, serif;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .nav__item a:hover {
