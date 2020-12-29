@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Inter-UI-Bold;
+  src: url("../fonts/Inter-UI-Bold.otf");
+}
+
+@font-face {
+  font-family: Inter-UI-Medium;
+  src: url("../fonts/Inter-UI-Medium.otf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/Poppins-Regular.ttf");
+}

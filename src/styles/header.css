@@ -1,7 +1,4 @@
-@font-face {
-  font-family: Inter-UI-Bold;
-  src: url("../fonts/Inter-UI-Bold.otf");
-}
+@import "./font.css";
 
 .header {
   display: flex;

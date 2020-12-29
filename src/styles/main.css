@@ -1,4 +1,5 @@
 @import "./header.css";
+@import "./tentang.css";
 
 * {
   padding: 0;
@@ -20,6 +21,11 @@ body, html {
   background: #FFF;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto
+}
+
 .bg-1 {
   position: absolute;
   top: 0;
@@ -28,3 +34,17 @@ body, html {
 .bg-1__image {
   width: 100%;
 }
+
+.button {
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 2px;
+  height: 12px;
+  margin-left: 5px;
+}
+

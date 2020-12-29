@@ -1,0 +1,34 @@
+@import "./font.css";
+
+
+.tentang{
+  position: relative;
+  color: #FFF;
+  top: 50px;
+}
+
+.tentang__headline {
+  width: 380px;
+  line-height: 2.5rem;
+  font-size: 35px;
+  font-family: Poppins-Regular, Arial, Helvetica, sans-serif;
+}
+
+.tentang__deskripsi {
+  margin-top: 10px;
+  width: 352px;
+  font-size: 14px;
+  font-family: Inter-UI-Medium, Cambria, Cochin, 'Times New Roman', serif;
+  line-height: 1.7rem;
+  font-weight: lighter;
+}
+
+.tentang__btn {
+  margin-top: 15px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  box-shadow: 0px 3px 6px #0000001A;
+  padding: 12px 8px;
+  padding-right: 35px;
+  font-family: Inter-UI-Bold, Cambria, Cochin, 'Times New Roman', serif;
+}
