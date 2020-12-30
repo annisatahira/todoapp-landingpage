@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: Inter-UI-Black;
+  src: url("../fonts/Inter-UI-Black.otf");
+}
+
+@font-face {
   font-family: Poppins-Regular;
   src: url("../fonts/Poppins-Regular.ttf");
 }

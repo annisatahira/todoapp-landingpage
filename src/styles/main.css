@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./tentang.css";
+@import "./kenapa.css";
 
 * {
   padding: 0;
@@ -21,17 +22,12 @@ body, html {
   background: #FFF;
 }
 
-main {
-  width: 80%;
-  margin: 0 auto
-}
-
 .bg-1 {
   position: absolute;
   top: 0;
 }
 
-.bg-1__image {
+.bg-1__image, .bg-2__image {
   width: 100%;
 }
 
@@ -47,4 +43,3 @@ main {
   height: 12px;
   margin-left: 5px;
 }
-

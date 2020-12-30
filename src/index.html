@@ -5,42 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <meta name="description" content="To Do App" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>To Do App</title>
   </head>
   <body>
-    <section class="bg-1">
-      <img class="bg-1__image" src="images/bg-1.png"/>
-    </section>
-    <header class="header">
-      <div class="header__logo">A</div>
-      <div class="nav-wrapper">
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#tentang">Tentang</a></li>
-            <li class="nav__item"><a href="#kenapa-to-do-app">Kenapa To Do App?</a></li>
-            <li class="nav__item"><a href="#demo">Demo Sederhana</a></li>
-            <li class="nav__item"><a href="#testimoni">Testimoni</a></li>
-            <li class="nav__item"><a href="#kontak">Kontak</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section id="tentang">
-        <div class="tentang">
-          <h1 class="tentang__headline">
-            Mudahkan Pencatatan Agenda Harianmu
-          </h1>
-          <p class="tentang__deskripsi">
-            Dengan “to do” app, semua yang akan anda kerjakan akan selalu ada dalam genggaman smartphone anda.
-            Tingkatkan produktivitas harian anda
-          </p>
-          <button class="button tentang__btn">
-            Pelajari Selengkapnya
-            <img class="arrow" src="./images/icons/arrow-right.png" alt="" />
-          </button>
-        </div>
-      </section>
-    </main>
+    <div class="header-wrapper">
+      <app-nav></app-nav>
+      <tentang-section></tentang-section>
+    </div>
+    <div class="kenapa-wrapper">
+      <kenapa-section></kenapa-section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

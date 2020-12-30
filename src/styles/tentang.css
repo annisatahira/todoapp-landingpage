@@ -2,9 +2,11 @@
 
 
 .tentang{
+  width: 70%;
+  margin: 0 auto;
   position: relative;
   color: #FFF;
-  top: 50px;
+  top: 100px;
 }
 
 .tentang__headline {

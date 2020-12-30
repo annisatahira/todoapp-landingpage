@@ -2,7 +2,7 @@
   "name": "todoapp",
   "version": "1.0.0",
   "description": "to do app landing page",
-  "main": "index.js",
+  "main": "js/index.js",
   "repository": "https://github.com/annisatahira/todoapp-landingpage.git",
   "author": "annisatahira999@gmail.com",
   "license": "MIT",
